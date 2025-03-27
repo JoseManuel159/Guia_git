@@ -1,0 +1,31 @@
+Como subir un proyecto a githup
+1. Crear un Repositorio en GitHub
+1.	Ve a GitHub y accede a tu cuenta.
+2.	Haz clic en "New repository" (Nuevo repositorio).
+3.	Escribe un nombre para tu repositorio (ejemplo: MiProyecto).
+4.	No marques la opción "Initialize this repository with a README" (para evitar conflictos).
+5.	Haz clic en "Create repository".
+Iniciar
+git init
+Agregar las carpetas
+git add .
+
+Agregar un archivo en especifico.
+git add nombre_del_archivo
+
+Hacer un comint
+git commit -m "Primer commit - subiendo proyecto"
+
+conectar el repositorio local con giy
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+
+Cambiar la rama principal a main
+git branch -M main
+
+Subir el proyecto al git
+git push -u origin main
+
+para subir cambios después de las modificaciones
+git add .
+git commit -m "Descripción del cambio"
+git push origin main
